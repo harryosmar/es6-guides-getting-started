@@ -7,5 +7,10 @@ const component = () => {
     console.log(...[1, 2, 3].map((n) => n + 1));
     return element;
 };
-  
+array.forEach(element => {
+    
+});
+
+
+
 document.body.appendChild(component());
