@@ -1,8 +1,8 @@
 # Getting Started - Guide
 
-![state of promise](https://github.com/harryosmar/es6-guides-getting-started/raw/master/resources/state-of-promise.jpg)
+![state of promise](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/promise/resources/state-of-promise.jpg)
 
-![state flow of promise](https://github.com/harryosmar/es6-guides-getting-started/raw/master/resources/state-flow-of-promise.jpg)
+![state flow of promise](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/promise/resources/state-flow-of-promise.jpg)
 
 
 ## 1. npm init
