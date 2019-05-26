@@ -1,5 +1,10 @@
 # Getting Started - Guide
 
+![state of promise](https://github.com/harryosmar/what-do-i-learn-today/raw/master/resources/state-of-promise.jpg)
+
+![state flow of promise](https://github.com/harryosmar/what-do-i-learn-today/raw/master/resources/state-flow-of-promise.jpg)
+
+
 ## 1. npm init
 
 ```
