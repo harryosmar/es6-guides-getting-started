@@ -7,11 +7,7 @@ const promise2 = new Promise((resolve, reject) => {
 });
 
 const promise3 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 5000, 'resolved after 5 second');
+    setTimeout(resolve, 4000, 'resolved after 4 second');
 });
 
-const promise4 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 7000, 'resolved after 7 second');
-});
-
-export default Promise.all([promise1, promise2, promise3, promise4]);
+export default Promise.all([promise1, promise2, promise3]);
