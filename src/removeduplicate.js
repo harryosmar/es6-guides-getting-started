@@ -3,6 +3,10 @@ const removeDuplicate = (parameter, treshold) => {
         return '';
     }
 
+    if (parameter.length < treshold) {
+        return parameter;
+    }
+
     const parameterArr = parameter.match(/./g);
 
     let duplicateObject = {

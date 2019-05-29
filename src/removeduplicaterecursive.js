@@ -5,16 +5,13 @@ const removeDuplicateRecursive = (parameter, treshold) => {
     let nextValue;
 
     while (
-            (
-                (nextValue = removeDuplicate(value, treshold))
-                || nextValue === ''
-            )
+            (nextValue = removeDuplicate(value, treshold))
             && nextValue !== value
     ) {
         value = nextValue;
     }
 
-    return value;
+    return nextValue;
 };
 
 export default removeDuplicateRecursive;

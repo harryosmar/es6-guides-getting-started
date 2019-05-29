@@ -31,3 +31,7 @@ test(' - 1', () => {
 test('aaac - 3', () => {
     expect(removeDuplicate('aaac', 3)).toBe('c');
 });
+
+test('c - 3', () => {
+    expect(removeDuplicate('c', 3)).toBe('c');
+});
