@@ -1,3 +1,73 @@
+# Generator
+
+- [What is generator](#what-is-generator)
+- Example
+	- [shopping example](#shopping-example)
+	- shopping then laundry
+		- [src]()
+		- [test]()
+	- for of - loop with generator
+		- [src]()
+		- [test]()
+- [The Purpose of generator](#the-purpose-of-generator)
+- [generator to iterate through object](#generator-to-iterate-through-object)
+- [generator delegation](#generator-delegation)
+- [symbol iterator](#symbol-iterator)
+- [generator with recursion](#generator-with-recursion)
+
+
+## What is generator
+
+Q1 : What is a `generator`
+
+A :
+> It's a function that we can enter and exit **multiple times**.
+
+Q2 : How to differentiates a generator function from a normal function
+A :
+> It has `*` before the function name.
+
+
+> inside generator function the `yield` syntax is related with `.next()`.
+
+
+## Shopping Example
+
+![shooping step](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/generators/resources/generators-shopping-steps.jpg)
+
+- [src]()
+- [test]()
+
+## The Purpose of generator
+
+Combine with `for of - loop`, we can use `generator` to iterate through any data structure that we want.
+
+## generator to iterate through object
+
+For example when we want to iterate through object, but only for very particular properties.
+
+- [engineering team example]()
+- [test]()
+
+## generator delegation
+
+When we have **multiple generators** but want to combine then run it at the same time.
+
+- [engineering team - include testing team]()
+- [test]()
+
+## symbol iterator
+
+Use to teach the object how to respond to `for of - loop`. It became the part of the object properties with value of an `iterator function`.
+
+- [src]()
+- [test]()
+
+## generator with recursion
+
+- [Comment Tree Example]()
+- [test]()
+
 # Getting Started - Guide
 
 ## 1. npm init
