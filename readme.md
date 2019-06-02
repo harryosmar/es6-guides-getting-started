@@ -1,5 +1,21 @@
 # Getting Started - Guide
 
+* Resolve
+	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAlwaysResolved.js)
+	* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L40)
+* Reject
+	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAlwaysRejected.js)
+	* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L16)
+* Promise All
+	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAll.js)
+	* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L22)
+* Promise Race
+	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseRace.js)
+	* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L33)
+* Async Await
+	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/asyncAwait.js)
+	* [test](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/test/promise.test.js#L40)
+
 ![state of promise](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/promise/resources/state-of-promise.jpg)
 
 ![state flow of promise](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/promise/resources/state-flow-of-promise.jpg)
