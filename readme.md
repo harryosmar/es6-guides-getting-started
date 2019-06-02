@@ -1,4 +1,4 @@
-# Getting Started - Guide
+# Promise
 
 * Resolve
 	* [src](https://github.com/harryosmar/es6-guides-getting-started/blob/promise/src/promiseAlwaysResolved.js)
@@ -24,6 +24,7 @@
 ![async await](https://raw.githubusercontent.com/harryosmar/es6-guides-getting-started/promise/resources/async-await.png)
 
 
+# Getting Started - Guide
 
 ## 1. npm init
 
